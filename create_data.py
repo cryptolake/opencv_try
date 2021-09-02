@@ -1,14 +1,11 @@
 import cv2
-import sys
-import numpy
 import os
-import cv2 as cv
 
 db_file = 'datafile.xml'
 
 datasets = 'datasets'
 
-sub_data = 'dhia'
+sub_data = 'me'
 
 path = os.path.join(datasets, sub_data)
 if not os.path.isdir(path):
